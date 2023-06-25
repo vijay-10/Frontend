@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLAY - FLAMES</title>
+    <link rel="stylesheet" href="/main.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+</head>
+<body class="flex h-screen justify-center bg-[#212529] shadow-[inset_0_0_5rem_rgba(0,0,0,0.5)] text-white">
+    <div class="container flex flex-col justify-between w-[40rem] mt-3 mb-8">
+        <nav class="flex flex-col items-center md:justify-between md:flex-row">
+            <a href="./" class="text-[1.75rem] font-semibold">Flames</a>
+            <div class="left flex items-center h-[2.5rem] md:h-full">
+                <ul class="flex gap-4 text-base font-bold h-full items-center">
+                    <li class="flex flex-col justify-center relative h-full text-[#898a8b] group hover:cursor-pointer">
+                        <a href="./">Home</a>
+                        <div class="absolute bottom-0  hidden group-hover:block w-full h-1 bg-[#898a8b]"></div>
+                    </li>
+                    <li class="flex flex-col justify-center relative h-full group hover:cursor-pointer">
+                        <a href="./play.html">Play</a>
+                        <div class="absolute bottom-0 w-full h-1 bg-white group-hover:bg-[#898a8b]"></div>
+                    </li>
+                    <li class="flex flex-col justify-center relative h-full text-[#898a8b] group hover:cursor-pointer">
+                        <a href="./contact.html">Contact</a>
+                        <div class="absolute bottom-0  hidden group-hover:block w-full h-1 bg-[#898a8b]"></div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="flex flex-col items-center px-8 md:px-0 space-y-4">
+            <h1 class="text-[1.7rem] sm:text-[1.75rem] md:text-[2.5rem] font-semibold text-center py-1">Check your "Destiny"</h1>
+            <input type="text" class="w-[100%] h-12 px-4 py-7 text-black rounded-md placeholder:text-black placeholder:font-normal" placeholder="Your Name:">
+            <input type="text" class="w-[100%] h-12 px-4 py-7 text-black rounded-md placeholder:text-black placeholder:font-normal" placeholder="Their Name:">
+            <button class="w-full bg-white text-black px-[1.05rem] py-[0.6rem] rounded-md font-medium text-xl" onclick="redirect()">Reveal</button>
+        </section>
+
+        <footer class="text-center text-[#898a8b]">
+            <p>Made with ❤  by 
+                <a href="" class="text-white">
+                    VJ 
+                </a>
+                and
+                <a href="" class="text-white">
+                    Varsh.
+                </a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+<script>
+    function redirect () {
+        location.href = "result.html";
+    };
+</script>
+</html>

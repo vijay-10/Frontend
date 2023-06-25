@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #141d2f;
+    color: white;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 50%;
+}
+
+.header {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.theme {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search {
+    background-color: #1e2a47;
+}
+
+.content {
+    background-color: #1e2a47;
+}
+
+input {
+    background-color: transparent;
+}
